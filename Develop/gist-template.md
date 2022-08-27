@@ -1,10 +1,14 @@
-# Title (replace with your title)
+# Kat's Regex Tuts
 
-Introductory paragraph (replace this with your text)
+Regular expressions also referred to as "regex" or "regexp" are patterns used to match strings.  A regex is can be an extremely powerful and useful tool if used correctly.  The following is a regex tutorial on matching an email. 
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+The below is a regex used to match an email. I'll describe all the different components that are part of the regex used to validate an email address. 
+
+```
+/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
+```
 
 ## Table of Contents
 
@@ -46,4 +50,4 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Kat Contreras is a full stack web developer.  You can view thier [Github Profile](https://github.com/katcontrerasdev) for more information. 
