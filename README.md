@@ -136,20 +136,17 @@ Back references are intended to match the same text pattern as the capture group
 ```
 
 ### Look-ahead and Look-behind
-Look-ahead and Look-behind also known as 'lookaround' are treated like assertions in the start and end of a line, like anchors.  They don't match strings, only let you know that it is possible.  We use '(?=)' for looking ahead and '(?<=) to look behind.   
+Look-ahead and Look-behind also known as 'lookaround' are treated like assertions in the start and end of a line, like anchors.  They don't match strings, only let you know that it is possible.  We use '(?=)' for looking ahead and '(?<=)' to look behind.  
 
-    Looking ahead. The example matches 'f' only if it is followed by 'q'.
-
+- Look-ahead. The example matches 'f' only if it is followed by 'q'.
     ```
     f(?=q)
-
     ```
 
-   Lookin behind.  The example matches 'f' only if it is before a 'q'.
-
+- Look-behind.  The example matches 'f' only if it is before a 'q'.
    ```
    (?,=q)f
-
+   ```
 
 
 ## Author
